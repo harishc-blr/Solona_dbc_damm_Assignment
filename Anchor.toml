@@ -1,0 +1,9 @@
+[programs.devnet]
+dbc_damm = "CEMwxGj6k28rmvFFd6CBmnxxSgxSD8dr7pyxLkCyLT9N"
+
+[provider]
+cluster = "https://api.devnet.solana.com"
+wallet = "~/.config/solana/id.json"
+
+[scripts]
+test = "mocha -t 1000000 tests/"
